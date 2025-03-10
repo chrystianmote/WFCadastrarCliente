@@ -29,203 +29,211 @@ namespace WFCadastrarCliente
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblNome = new System.Windows.Forms.Label();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.txtSobreNome = new System.Windows.Forms.TextBox();
-            this.lblSobreNome = new System.Windows.Forms.Label();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.lblEmail = new System.Windows.Forms.Label();
-            this.txtTelefone = new System.Windows.Forms.TextBox();
-            this.lblTelefone = new System.Windows.Forms.Label();
-            this.gbxSexo = new System.Windows.Forms.GroupBox();
-            this.rdbFeminino = new System.Windows.Forms.RadioButton();
-            this.rdbMasculino = new System.Windows.Forms.RadioButton();
-            this.lblEscolaridade = new System.Windows.Forms.Label();
-            this.cbxEscolaridade = new System.Windows.Forms.ComboBox();
-            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.btnCadastrar = new System.Windows.Forms.Button();
-            this.lblDataNascimento = new System.Windows.Forms.Label();
-            this.dtpDataNascimento = new System.Windows.Forms.DateTimePicker();
-            this.gbxSexo.SuspendLayout();
-            this.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormCadastro));
+            lblNome = new System.Windows.Forms.Label();
+            txtNome = new System.Windows.Forms.TextBox();
+            txtSobreNome = new System.Windows.Forms.TextBox();
+            lblSobreNome = new System.Windows.Forms.Label();
+            txtEmail = new System.Windows.Forms.TextBox();
+            lblEmail = new System.Windows.Forms.Label();
+            txtTelefone = new System.Windows.Forms.TextBox();
+            lblTelefone = new System.Windows.Forms.Label();
+            gbxSexo = new System.Windows.Forms.GroupBox();
+            rdbFeminino = new System.Windows.Forms.RadioButton();
+            rdbMasculino = new System.Windows.Forms.RadioButton();
+            lblEscolaridade = new System.Windows.Forms.Label();
+            cbxEscolaridade = new System.Windows.Forms.ComboBox();
+            backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
+            btnCadastrar = new System.Windows.Forms.Button();
+            lblDataNascimento = new System.Windows.Forms.Label();
+            dtpDataNascimento = new System.Windows.Forms.DateTimePicker();
+            gbxSexo.SuspendLayout();
+            SuspendLayout();
             // 
             // lblNome
             // 
-            this.lblNome.AutoSize = true;
-            this.lblNome.Location = new System.Drawing.Point(13, 13);
-            this.lblNome.Name = "lblNome";
-            this.lblNome.Size = new System.Drawing.Size(43, 15);
-            this.lblNome.TabIndex = 0;
-            this.lblNome.Text = "Nome:";
+            lblNome.AutoSize = true;
+            lblNome.Location = new System.Drawing.Point(15, 17);
+            lblNome.Name = "lblNome";
+            lblNome.Size = new System.Drawing.Size(53, 20);
+            lblNome.TabIndex = 0;
+            lblNome.Text = "Nome:";
             // 
             // txtNome
             // 
-            this.txtNome.Location = new System.Drawing.Point(13, 32);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(224, 23);
-            this.txtNome.TabIndex = 1;
+            txtNome.Location = new System.Drawing.Point(15, 43);
+            txtNome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new System.Drawing.Size(255, 27);
+            txtNome.TabIndex = 1;
             // 
             // txtSobreNome
             // 
-            this.txtSobreNome.Location = new System.Drawing.Point(279, 32);
-            this.txtSobreNome.Name = "txtSobreNome";
-            this.txtSobreNome.Size = new System.Drawing.Size(175, 23);
-            this.txtSobreNome.TabIndex = 3;
+            txtSobreNome.Location = new System.Drawing.Point(319, 43);
+            txtSobreNome.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtSobreNome.Name = "txtSobreNome";
+            txtSobreNome.Size = new System.Drawing.Size(199, 27);
+            txtSobreNome.TabIndex = 3;
             // 
             // lblSobreNome
             // 
-            this.lblSobreNome.AutoSize = true;
-            this.lblSobreNome.Location = new System.Drawing.Point(279, 13);
-            this.lblSobreNome.Name = "lblSobreNome";
-            this.lblSobreNome.Size = new System.Drawing.Size(71, 15);
-            this.lblSobreNome.TabIndex = 2;
-            this.lblSobreNome.Text = "Sobrenome:";
+            lblSobreNome.AutoSize = true;
+            lblSobreNome.Location = new System.Drawing.Point(319, 17);
+            lblSobreNome.Name = "lblSobreNome";
+            lblSobreNome.Size = new System.Drawing.Size(89, 20);
+            lblSobreNome.TabIndex = 2;
+            lblSobreNome.Text = "Sobrenome:";
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(13, 102);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(224, 23);
-            this.txtEmail.TabIndex = 5;
+            txtEmail.Location = new System.Drawing.Point(15, 136);
+            txtEmail.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new System.Drawing.Size(255, 27);
+            txtEmail.TabIndex = 5;
             // 
             // lblEmail
             // 
-            this.lblEmail.AutoSize = true;
-            this.lblEmail.Location = new System.Drawing.Point(13, 81);
-            this.lblEmail.Name = "lblEmail";
-            this.lblEmail.Size = new System.Drawing.Size(44, 15);
-            this.lblEmail.TabIndex = 4;
-            this.lblEmail.Text = "E-mail:";
+            lblEmail.AutoSize = true;
+            lblEmail.Location = new System.Drawing.Point(15, 108);
+            lblEmail.Name = "lblEmail";
+            lblEmail.Size = new System.Drawing.Size(55, 20);
+            lblEmail.TabIndex = 4;
+            lblEmail.Text = "E-mail:";
             // 
             // txtTelefone
             // 
-            this.txtTelefone.Location = new System.Drawing.Point(13, 171);
-            this.txtTelefone.Name = "txtTelefone";
-            this.txtTelefone.Size = new System.Drawing.Size(224, 23);
-            this.txtTelefone.TabIndex = 7;
+            txtTelefone.Location = new System.Drawing.Point(15, 228);
+            txtTelefone.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            txtTelefone.Name = "txtTelefone";
+            txtTelefone.Size = new System.Drawing.Size(255, 27);
+            txtTelefone.TabIndex = 7;
             // 
             // lblTelefone
             // 
-            this.lblTelefone.AutoSize = true;
-            this.lblTelefone.Location = new System.Drawing.Point(13, 152);
-            this.lblTelefone.Name = "lblTelefone";
-            this.lblTelefone.Size = new System.Drawing.Size(54, 15);
-            this.lblTelefone.TabIndex = 6;
-            this.lblTelefone.Text = "Telefone:";
+            lblTelefone.AutoSize = true;
+            lblTelefone.Location = new System.Drawing.Point(15, 203);
+            lblTelefone.Name = "lblTelefone";
+            lblTelefone.Size = new System.Drawing.Size(69, 20);
+            lblTelefone.TabIndex = 6;
+            lblTelefone.Text = "Telefone:";
             // 
             // gbxSexo
             // 
-            this.gbxSexo.Controls.Add(this.rdbFeminino);
-            this.gbxSexo.Controls.Add(this.rdbMasculino);
-            this.gbxSexo.Location = new System.Drawing.Point(299, 142);
-            this.gbxSexo.Name = "gbxSexo";
-            this.gbxSexo.Size = new System.Drawing.Size(155, 105);
-            this.gbxSexo.TabIndex = 8;
-            this.gbxSexo.TabStop = false;
-            this.gbxSexo.Text = "Sexo:";
+            gbxSexo.Controls.Add(rdbFeminino);
+            gbxSexo.Controls.Add(rdbMasculino);
+            gbxSexo.Location = new System.Drawing.Point(342, 189);
+            gbxSexo.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            gbxSexo.Name = "gbxSexo";
+            gbxSexo.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            gbxSexo.Size = new System.Drawing.Size(177, 140);
+            gbxSexo.TabIndex = 8;
+            gbxSexo.TabStop = false;
+            gbxSexo.Text = "Sexo:";
             // 
             // rdbFeminino
             // 
-            this.rdbFeminino.AutoSize = true;
-            this.rdbFeminino.Location = new System.Drawing.Point(16, 68);
-            this.rdbFeminino.Name = "rdbFeminino";
-            this.rdbFeminino.Size = new System.Drawing.Size(75, 19);
-            this.rdbFeminino.TabIndex = 1;
-            this.rdbFeminino.TabStop = true;
-            this.rdbFeminino.Text = "Feminino";
-            this.rdbFeminino.UseVisualStyleBackColor = true;
+            rdbFeminino.AutoSize = true;
+            rdbFeminino.Location = new System.Drawing.Point(18, 91);
+            rdbFeminino.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            rdbFeminino.Name = "rdbFeminino";
+            rdbFeminino.Size = new System.Drawing.Size(91, 24);
+            rdbFeminino.TabIndex = 1;
+            rdbFeminino.TabStop = true;
+            rdbFeminino.Text = "Feminino";
+            rdbFeminino.UseVisualStyleBackColor = true;
             // 
             // rdbMasculino
             // 
-            this.rdbMasculino.AutoSize = true;
-            this.rdbMasculino.Location = new System.Drawing.Point(16, 29);
-            this.rdbMasculino.Name = "rdbMasculino";
-            this.rdbMasculino.Size = new System.Drawing.Size(80, 19);
-            this.rdbMasculino.TabIndex = 0;
-            this.rdbMasculino.TabStop = true;
-            this.rdbMasculino.Text = "Masculino";
-            this.rdbMasculino.UseVisualStyleBackColor = true;
+            rdbMasculino.AutoSize = true;
+            rdbMasculino.Location = new System.Drawing.Point(18, 39);
+            rdbMasculino.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            rdbMasculino.Name = "rdbMasculino";
+            rdbMasculino.Size = new System.Drawing.Size(97, 24);
+            rdbMasculino.TabIndex = 0;
+            rdbMasculino.TabStop = true;
+            rdbMasculino.Text = "Masculino";
+            rdbMasculino.UseVisualStyleBackColor = true;
             // 
             // lblEscolaridade
             // 
-            this.lblEscolaridade.AutoSize = true;
-            this.lblEscolaridade.Location = new System.Drawing.Point(13, 220);
-            this.lblEscolaridade.Name = "lblEscolaridade";
-            this.lblEscolaridade.Size = new System.Drawing.Size(76, 15);
-            this.lblEscolaridade.TabIndex = 9;
-            this.lblEscolaridade.Text = "Escolaridade:";
+            lblEscolaridade.AutoSize = true;
+            lblEscolaridade.Location = new System.Drawing.Point(15, 293);
+            lblEscolaridade.Name = "lblEscolaridade";
+            lblEscolaridade.Size = new System.Drawing.Size(97, 20);
+            lblEscolaridade.TabIndex = 9;
+            lblEscolaridade.Text = "Escolaridade:";
             // 
             // cbxEscolaridade
             // 
-            this.cbxEscolaridade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbxEscolaridade.FormattingEnabled = true;
-            this.cbxEscolaridade.Items.AddRange(new object[] {
-            "Ensino Fundamental ",
-            "Ensino Médio ",
-            "Ensino Técnico",
-            "Ensino Superior Incompleto",
-            "Ensino Superior",
-            "Pós-Graduação"});
-            this.cbxEscolaridade.Location = new System.Drawing.Point(13, 238);
-            this.cbxEscolaridade.Name = "cbxEscolaridade";
-            this.cbxEscolaridade.Size = new System.Drawing.Size(224, 23);
-            this.cbxEscolaridade.TabIndex = 10;
+            cbxEscolaridade.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            cbxEscolaridade.FormattingEnabled = true;
+            cbxEscolaridade.Items.AddRange(new object[] { "Ensino Fundamental ", "Ensino Médio ", "Ensino Técnico", "Ensino Superior Incompleto", "Ensino Superior", "Pós-Graduação" });
+            cbxEscolaridade.Location = new System.Drawing.Point(15, 317);
+            cbxEscolaridade.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            cbxEscolaridade.Name = "cbxEscolaridade";
+            cbxEscolaridade.Size = new System.Drawing.Size(255, 28);
+            cbxEscolaridade.TabIndex = 10;
             // 
             // btnCadastrar
             // 
-            this.btnCadastrar.Location = new System.Drawing.Point(364, 351);
-            this.btnCadastrar.Name = "btnCadastrar";
-            this.btnCadastrar.Size = new System.Drawing.Size(90, 33);
-            this.btnCadastrar.TabIndex = 11;
-            this.btnCadastrar.Text = "Cadastrar";
-            this.btnCadastrar.UseVisualStyleBackColor = true;
-            this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
+            btnCadastrar.Image = (System.Drawing.Image)resources.GetObject("btnCadastrar.Image");
+            btnCadastrar.Location = new System.Drawing.Point(385, 468);
+            btnCadastrar.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            btnCadastrar.Name = "btnCadastrar";
+            btnCadastrar.Size = new System.Drawing.Size(133, 44);
+            btnCadastrar.TabIndex = 11;
+            btnCadastrar.Text = "Cadastrar";
+            btnCadastrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
+            btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
             // 
             // lblDataNascimento
             // 
-            this.lblDataNascimento.AutoSize = true;
-            this.lblDataNascimento.Location = new System.Drawing.Point(279, 81);
-            this.lblDataNascimento.Name = "lblDataNascimento";
-            this.lblDataNascimento.Size = new System.Drawing.Size(117, 15);
-            this.lblDataNascimento.TabIndex = 12;
-            this.lblDataNascimento.Text = "Data de Nascimento:";
+            lblDataNascimento.AutoSize = true;
+            lblDataNascimento.Location = new System.Drawing.Point(319, 108);
+            lblDataNascimento.Name = "lblDataNascimento";
+            lblDataNascimento.Size = new System.Drawing.Size(148, 20);
+            lblDataNascimento.TabIndex = 12;
+            lblDataNascimento.Text = "Data de Nascimento:";
             // 
             // dtpDataNascimento
             // 
-            this.dtpDataNascimento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dtpDataNascimento.Location = new System.Drawing.Point(279, 99);
-            this.dtpDataNascimento.Name = "dtpDataNascimento";
-            this.dtpDataNascimento.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.dtpDataNascimento.Size = new System.Drawing.Size(175, 23);
-            this.dtpDataNascimento.TabIndex = 13;
+            dtpDataNascimento.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            dtpDataNascimento.Location = new System.Drawing.Point(319, 132);
+            dtpDataNascimento.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            dtpDataNascimento.Name = "dtpDataNascimento";
+            dtpDataNascimento.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            dtpDataNascimento.Size = new System.Drawing.Size(199, 27);
+            dtpDataNascimento.TabIndex = 13;
             // 
             // FormCadastro
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(489, 410);
-            this.Controls.Add(this.dtpDataNascimento);
-            this.Controls.Add(this.lblDataNascimento);
-            this.Controls.Add(this.btnCadastrar);
-            this.Controls.Add(this.cbxEscolaridade);
-            this.Controls.Add(this.lblEscolaridade);
-            this.Controls.Add(this.gbxSexo);
-            this.Controls.Add(this.txtTelefone);
-            this.Controls.Add(this.lblTelefone);
-            this.Controls.Add(this.txtEmail);
-            this.Controls.Add(this.lblEmail);
-            this.Controls.Add(this.txtSobreNome);
-            this.Controls.Add(this.lblSobreNome);
-            this.Controls.Add(this.txtNome);
-            this.Controls.Add(this.lblNome);
-            this.Name = "FormCadastro";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Cadastro de Clientes";
-            this.gbxSexo.ResumeLayout(false);
-            this.gbxSexo.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(559, 547);
+            Controls.Add(dtpDataNascimento);
+            Controls.Add(lblDataNascimento);
+            Controls.Add(btnCadastrar);
+            Controls.Add(cbxEscolaridade);
+            Controls.Add(lblEscolaridade);
+            Controls.Add(gbxSexo);
+            Controls.Add(txtTelefone);
+            Controls.Add(lblTelefone);
+            Controls.Add(txtEmail);
+            Controls.Add(lblEmail);
+            Controls.Add(txtSobreNome);
+            Controls.Add(lblSobreNome);
+            Controls.Add(txtNome);
+            Controls.Add(lblNome);
+            Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            Name = "FormCadastro";
+            StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            Text = "Cadastro de Clientes";
+            gbxSexo.ResumeLayout(false);
+            gbxSexo.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion

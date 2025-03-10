@@ -31,6 +31,7 @@ namespace WFCadastrarCliente
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
             mnsMenuPrincipal = new System.Windows.Forms.MenuStrip();
             menuItemCadastrar = new System.Windows.Forms.ToolStripMenuItem();
             menuItemListar = new System.Windows.Forms.ToolStripMenuItem();
@@ -51,8 +52,9 @@ namespace WFCadastrarCliente
             // 
             // menuItemCadastrar
             // 
+            menuItemCadastrar.Image = (System.Drawing.Image)resources.GetObject("menuItemCadastrar.Image");
             menuItemCadastrar.Name = "menuItemCadastrar";
-            menuItemCadastrar.Size = new System.Drawing.Size(86, 24);
+            menuItemCadastrar.Size = new System.Drawing.Size(106, 24);
             menuItemCadastrar.Text = "Cadastrar";
             menuItemCadastrar.Click += menuItemCadastrar_Click;
             // 
